@@ -3,5 +3,6 @@ body {
 }
 
 th {
-  font-style: strong;
+  font-style: normal;
+  font-weight: bold;
 }
