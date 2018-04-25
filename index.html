@@ -16,20 +16,21 @@
 		<title id="title"></title>
 		
 	<!-- Override for external stylesheet -->
-		<style>
+		<style type="text/css">
  			body {font-family: 'Lato', sans-serif;}
 			a.fa:link {text-decoration: none;}
 			a.fa:visited {text-decoration: none;}
 			a.fa:hover {text-decoration: none;}
 			a.fa:active {text-decoration: none;}
+			@font-face {font-family: stjedise; src: url('fonts/STJEDISE.ttf');} /* TTF file for CSS3 browsers */
+			@font-face {font-family: stjedise; src: url('fonts/STJEDISE.eot';)} /* EOT file for IE */
 		</style>
-		
 	</head>
 
 	<body>
 		
 	<!-- Navbar -->
-		<div class="w3-top">
+		<div class="w3-top" style="font-family: stjedise;>
 			<div class="w3-bar w3-black w3-card">
 			<a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
 		<!-- Aus Commandos -->
@@ -66,7 +67,7 @@
 		
 	<!-- Body -->
 		<div>
-			<img src="https://i.imgur.com/hKeUG0g.jpg" class="w3-border w3-padding" alt="Recruiting" width="75%" height="75%" style="horizontal-align:middle">
+			<img src="https://i.imgur.com/hKeUG0g.jpg" class="w3-border w3-padding" alt="Recruiting" style="horizontal-align:middle;width=75%;height=75%;">
 		</div>
 	<!-- Footer -->
 		<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
