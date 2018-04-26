@@ -1,0 +1,2 @@
+values = document.getElementsByClassName("stat-item-value")
+values[0].innerHTML
