@@ -22,19 +22,20 @@
 		<style type="text/css">
  			body {font-family: 'Lato', sans-serif;}
  			body {background-color: #ffffff;}
-			a.fab:link {text-decoration: none;}
-			a.fab:visited {text-decoration: none;}
+			a.fab:link, a.fab:visited, a.fab:hover, a.fab:active {text-decoration: none;}
+			/*a.fab:visited {text-decoration: none;}
 			a.fab:hover {text-decoration: none;}
 			a.fab:active {text-decoration: none;}
 			/* @font-face {font-family: 'stjedise'; src: local('stjedise'), url('https://raw.githubusercontent.com/auscommandos/auscommandos.github.io/blob/master/fonts/STJEDISE.TTF') format('truetype'), src: url('https://raw.githubusercontent.com/auscommandos/auscommandos.github.io/blob/master/fonts/STJEDISE.eot') format('embedded-opentype'); font-weight: 100; font-style: normal;} /* EOT file for IE */
 			@font-face {font-family: 'starjedi_special_editionRg'; src: url('fonts/stjedise-webfont.woff2') format('woff2'), url('fonts/stjedise-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+			#navbar, #content, #footer {position:absolute;}
 		</style>
 	</head>
 
 	<body>
 		
 	<!-- Navbar -->
-		<div class="w3-top w3-large" style="font-family: 'starjedi_special_editionRg', sans-serif; font-weight: 100;">
+		<div id="navbar" class="w3-top w3-large" style="font-family: 'starjedi_special_editionRg', sans-serif; font-weight: 100;">
 			<div class="w3-bar w3-black w3-card">
 			<a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
 		<!-- Aus Commandos -->
@@ -70,7 +71,7 @@
 		</div>
 		
 	<!-- Page content -->
-		<div class="w3-content" style="max-width:2000px;margin-top:46px">
+		<div id="content" class="w3-content" style="max-width:2000px;margin-top:46px">
 			
 			<div class="w3-center">
 				<img src="https://i.imgur.com/hKeUG0g.jpg" alt="Recruiting" style="width:100%;max-width:600px">
@@ -79,7 +80,7 @@
 		</div>
 		
 	<!-- Footer -->
-		<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+		<footer id="footer" class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
 			<p class="w3-medium"><a href="https://swgoh.gg/g/1277/australian-commandos/" target="_blank">Find us on swgoh.gg</a></p>
 			<p class="w3-medium"><a href="https://forums.galaxy-of-heroes.starwars.ea.com/profile/auscommandos/" target="_blank">Find us on the EA forum</a></p>
 			<a href="https://discord.gg/JgbGqpN"class="fab fa-discord w3-hover-opacity fa-lg" target="_blank" style="color:#000000;"></a>
